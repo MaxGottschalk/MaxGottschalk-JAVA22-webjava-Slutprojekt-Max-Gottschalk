@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    position: 0;
+}
+
+body {
+	background-size: cover;
+	background-image: url("images/weather.jpg");
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+}
+
+.start{
+	padding: 100px;
+}
+
+.search {
+	width: 100%;
+	padding: 0px 20px;
+	margin: 8px 0;
+  	display: inline-block;
+  	border: 2px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+h2{
+	color: white;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+h3{
+	color: white;
+	padding-left: 10px;
+}
+
+h4{
+	color: white;
+	padding-left: 10px;
+}
