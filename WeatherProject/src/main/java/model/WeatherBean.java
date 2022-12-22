@@ -11,10 +11,6 @@ public class WeatherBean {
 	private String tempStr;
 	
 	private String dateStr;
-	
-	private String tempCity;
-	
-	private String tempCounrty;
 
 	public WeatherBean(String cityStr, String countryStr) {
 
@@ -54,22 +50,6 @@ public class WeatherBean {
 
 		public void setDateStr(String sunRiseStr) {
 			this.dateStr = sunRiseStr;
-		}
-
-		public String getTempCity() {
-			return tempCity;
-		}
-
-		public void setTempCity(String tempCity) {
-			this.tempCity = tempCity;
-		}
-
-		public String getTempCounrty() {
-			return tempCounrty;
-		}
-
-		public void setTempCounrty(String tempCounrty) {
-			this.tempCounrty = tempCounrty;
 		}
 		
 }
